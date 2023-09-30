@@ -1,0 +1,64 @@
+.page-7 .bg-white{
+    background-color: white;
+    height: 10px;
+    width: 100%;;
+    position: absolute;
+    top:680%;
+}
+.bg-white h2{
+    color: #0C134F;
+}
+
+.page-7 .bg-blue{
+    background-color: #0C134F;
+    height: 310px;
+    width: 100%;;
+    position: absolute;
+    top:700%;
+}
+
+.page-7 img{
+    z-index: 1;
+    position: absolute;
+    bottom:-430px;
+    margin-bottom: 80px;
+}
+.page-7 h2{
+    position: absolute;
+    right:15%;
+    bottom:15%;
+}
+.page-7 .img-div{
+    position: absolute;
+    right:34%;
+    top:-150px;
+    box-shadow: rgba(25, 1, 1, 0.35) 0px 15px 15px;
+}
+
+.page-7 a{
+    text-decoration: underline;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: white;
+    position: absolute;
+    right:14%;
+    padding-top: 16%;
+    z-index: 1;
+}
+
+@media(max-width:1077px){
+    .page-7 .truck1{
+        width:90vh;
+    }
+    .page-7 .img-div{
+        width: 30vh;
+        position: absolute;
+        top: -980%;
+        right:12%;
+    }
+    .page-7 a{
+        bottom: -3060%;
+        color: white;
+        right: 3%;
+    }
+}

@@ -1,0 +1,79 @@
+.page-22{
+    background-color: #CDD0CB;
+    height:700px;
+    position: absolute;
+    top:140%;
+    width: 100%;
+}
+.page-22 h5{
+    color: #0C134F;
+    font-size: 1.3rem;
+    padding: 1%;
+}
+.page-22 .dblue-box{
+    background-color: #0C134F;
+    height: 500px;;
+    width: 90%;
+    border-radius: 15px;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+.under{
+    text-decoration: underline;
+    color: white;
+}
+.matter{
+    padding: 2%;
+    padding-left: 3%;
+}
+.matter h4{
+    text-align: left;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.matter p{
+    text-align: left;
+    color: white;
+
+}
+.matter button{
+    padding: 2%;
+    text-align: center;
+    width:200px;
+    border-radius: 15px;
+    margin-top: 3%;
+    margin-left: 2%;
+    color: #0C134F;
+    background-color: #CDD0CB;
+}
+.page-22 .red-box1{
+    background-color: red;
+    height: 200px;
+    width: 22%;
+    border-radius: 15px;
+    position: absolute;
+    top:25%;
+    right:13%;
+}
+.page-22 .red-box2{
+    background-color: red;
+    height: 200px;
+    width: 22%;
+    border-radius: 15px;
+    position: absolute;
+    top:55%;
+    right:13%;
+}
+
+@media (max-width: 1077px) {
+   .page-22 {
+    z-index: 1;
+   }    
+   .page-22 .red-box1{
+    right:7%;
+   }
+   .page-22 .red-box2{
+    right:7%;
+   }
+}
