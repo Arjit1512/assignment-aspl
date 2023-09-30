@@ -1,0 +1,105 @@
+.page-21 .navbar{
+    background-color: #576CBC;
+    width:100%;
+    height: 25vh;
+    display: flex;
+    flex-direction: row;
+    text-align: right;
+    align-items: start;
+    margin-top: -2%;
+}
+.page-21 .navbar a{
+     position: relative;
+     left:54.5%;
+     top:25%;
+    }
+.page-21 .navbar .underline{
+     text-decoration: none;
+     color: white;
+     position: relative;
+     left: 52%;
+}
+.page-21 .navbar .deh{
+    text-decoration: underline;
+    color: white;
+}
+a{
+    margin:10px;
+    text-decoration: none;
+    color: white;
+}
+.page-21 .frame-9{
+    justify-content: space-between;
+    flex-direction: column;
+    position: absolute;
+    top:15%;
+    right:2%;
+}
+.page-21 .big-image{
+    width: 100%;;
+    height: 100%;
+
+}
+.big-image h1{
+    position: absolute;
+    top:25%;
+    right:5%;
+    z-index: 1;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.big-image h5{
+    position: absolute;
+    top:35%;
+    right:5%;
+    z-index: 1;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: right;
+}
+
+.navbar2{
+    visibility: hidden;
+}
+
+@media (max-width: 1077px) {
+    .navbar,.frame-9{
+        visibility: hidden;
+    }
+    .navbar2{
+        visibility: visible;
+        background-color: #0C134F;
+        height:20vh;
+    } .icon1{
+        position: absolute;
+        visibility: visible;
+        right:10%;
+        top:2%;
+        color: white;
+        padding-top: 2%;
+    }
+    .icon2{
+        position: absolute;
+        visibility: visible;
+        padding-left:13%;
+        top:2%;
+        color: white;
+        padding-top: 2%;
+    }
+    .big-image{
+        margin-top: -28%;
+    }
+
+
+}
+@media(max-width:664px){
+    .big-image{
+        margin-top: -48%;
+        }
+    .big-image img{
+        width: 20vh;
+        height: 20vh;    
+    }
+}

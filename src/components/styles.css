@@ -1,0 +1,202 @@
+body{
+    background-image: url(../img/img1.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height:100%;
+}
+.hidden,.icon1,.icon2{
+    visibility: hidden;
+}
+.hide{
+    visibility: visible;
+}
+.contact-info{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    font-weight: 700;
+    color: #3C2A21;
+}
+
+.underline{
+    text-decoration: underline;
+    color: white;
+    font-weight: 700;
+}
+button{
+    background-color: #F15A59;
+    color: white;
+    border: 0;
+    font-weight: 700;
+    font-size: 1.1rem;
+    width: max-content;
+    margin-right:20px;
+    border-radius: 5%;
+    box-shadow: rgba(19, 17, 17, 0.35) 0px 5px 15px;
+
+}
+.red{
+    background-color: red;
+    text-align: center;
+}
+.frame-1{
+    justify-content: space-between;
+    flex-direction: column;
+    position: absolute;
+    top:20%;
+    right:2%;
+}
+a{
+    margin:10px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+.frame-9{
+    justify-content: space-between;
+    flex-direction: column;
+    position: absolute;
+    top:30%;
+    right:2%;
+}
+.info-p1{
+    position: absolute;
+    top:85%;
+    right:5%;
+    text-align: right;
+    color: whitesmoke;
+}
+.info-p1 h1,.info-p1 h3{
+    padding-bottom: 3%;
+    font-weight: 400;
+}
+.info-p1 h1{   
+   font-size: 3rem;
+}
+ .final-circle p{
+    visibility: hidden;
+} 
+.final-circle{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.circles{
+    height: 13px;
+    width: 13px;
+    background-color: transparent;
+    border-radius: 100%;
+    position: absolute;
+    top:900px;
+    left:40%;
+    border: 3px solid white;
+}
+.circles2{
+    left: 42%;
+}
+
+.circles3{
+    left: 44%;
+}
+
+.circles4{
+    left: 46%;
+    background-color: skyblue;
+}
+
+.circles5{
+    left: 48%;
+}
+
+.circles6{
+    left: 50%;
+}
+
+.circles7{
+    left: 52%;
+}
+
+ .circles:nth-child(1){
+    right: 2%;
+    border: 2px solid black;
+} 
+
+.div1 img{
+    height:7%;
+    width:3%;
+    position: absolute;
+    right: 10%;
+    top:3%;
+    background-color: transparent;
+}
+
+.div2{
+    position: absolute;
+    right:2%;
+    top:1%;
+}
+.div2 .p2{
+    position: relative;
+    top:-10px;
+}
+
+@media(max-width:777px){
+   .div1,
+   .div2{ 
+    visibility: hidden;
+    top:3%;
+    margin-right: 15%;
+    width:10%;   
+}
+   
+   .frame-1{
+    visibility: hidden;
+    align-items: center;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+   }
+   .frame-9{
+    
+    visibility: hidden;
+    align-items: center;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    position: absolute;
+    left:5%;
+   }
+    .hidden{
+        visibility: visible;
+        font-weight: 700;
+        color: white;
+        position: absolute;
+        left: 5%;
+        top:10%;
+    }
+    .hnavbar{
+        background-color: red;
+        height:10vh;
+        width: 100%;
+        margin-left: -280px;
+    }
+    .icon1{
+        position: absolute;
+        visibility: visible;
+        right:10%;
+        top:2%;
+        color: white;
+    }
+    .hide{
+        visibility: hidden;
+    }
+    .icon2{
+        position: absolute;
+        visibility: visible;
+        padding-left:13%;
+        top:2%;
+        color: white;
+    }
+}
