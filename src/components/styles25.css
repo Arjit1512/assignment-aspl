@@ -1,0 +1,75 @@
+.page-25{
+    background-color: white;
+    height:430px;
+    position: absolute;
+    top:400%;
+    width: 100%;
+}
+.page-25 h2{
+    padding-left: 5%;
+    font-weight: 700;
+    color: #0C134F;
+}
+.page-25 img{
+    padding-top: 1%;
+    padding-left: 8%;
+}
+.page-25 span{
+    color:black;
+    font-weight: 900;
+}
+
+.page-25 p{
+    color:#0C134F;
+    position: absolute;
+    right:33%;
+    top:28%;
+    font-size: 1.3rem;
+    word-spacing: 2px;
+}
+.page-25 .userinfo{
+    color:#0C134F;
+    position: absolute;
+    text-align: right;
+    right:10%;
+    top:90%;
+    font-size: 1.3rem;
+    word-spacing: 2px;
+}
+.page-25 .aposimg{
+    position: absolute;
+    top:13%;
+    left:18%;
+    width:4%;
+}
+
+.page-25 .circles{
+    position: absolute;
+    top:115%;
+    border: 3px solid gray;
+}
+.page-25 .final-circle{
+    padding-bottom: 10%;
+}
+
+@media (max-width: 1177px) {
+    .page-25 p{
+        margin-left: 55%;
+        word-spacing: 0;
+        font-size: 1rem;
+        top: 20%;
+        left: -11%;
+        width: 60vh;
+    }
+    .page-25 .aposimg{
+        left: 35%;
+    }
+    .page-25 .per{
+        width: 30%;
+    }
+    .page-25 .userinfo{
+        font-size: 1rem;
+        margin-top: -8%;
+    }
+}
+

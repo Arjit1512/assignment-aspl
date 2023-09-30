@@ -1,0 +1,43 @@
+.page-8{
+    background-color: white;
+    position: absolute;
+    top:730%;
+    width: 100%;
+}
+
+.page-8 h5{
+    text-align: center;
+    color: #0E2954;
+}
+.page-8 .row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 1%; */
+}
+
+.page-8 .col-1,
+.page-8 .col-2,
+.page-8 .col-3,
+.page-8 .col-4,
+.page-8 .col-5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.5%;
+    flex: 1; /* Distribute columns evenly */
+    max-width: calc(50% - 20px); /* Set maximum width for tablet and smaller screens */
+    box-sizing: border-box;
+}
+.page-8 .col-4 img,.page-8 .col-3 img,.page-8 .col-5 img{
+    max-width: 100%; /* Make images responsive */
+    height: auto; /* Maintain image aspect ratio */
+    padding: 2%;
+}
+.page-8 .col-1 img,.page-8 .col-2 img{
+    max-width: 100%; /* Make images responsive */
+    height: auto; /* Maintain image aspect ratio */
+}

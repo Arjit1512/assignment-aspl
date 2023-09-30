@@ -1,0 +1,169 @@
+.page-3{
+    background-color: #0C134F;
+    position: absolute;
+    top:240%;
+    height:1140px;
+    width: 100%;
+
+}
+.page-3 p{
+    margin-top: -10px;
+}
+.page-3 h1{
+    margin-top: -5px;
+}
+.p3info{
+    padding: 4%;
+    color:#fff;
+}
+.heading3{
+    position: absolute;
+    left:2%;
+    top:0;
+}
+.page-3 span{
+    color: red;
+}
+.container .box{
+    background-color: #fff;
+    margin: 1%;
+    width: 360px;
+    height: 430px;
+    border-radius: 0 15% 0 15%;
+     position: absolute;
+    top:262%; 
+    left:5%;
+    box-shadow: rgba(234, 229, 229, 0.35) 0px 5px 15px;
+}
+.container .box:nth-child(2){
+    position: absolute;
+    left:35%;
+}
+.container .box:nth-child(3){
+    position: absolute;
+    left:65%;
+}
+.container .box:nth-child(4){
+    position: absolute;
+    top:328%;
+    left:5%;
+}
+.container .box:nth-child(5){
+    position: absolute;
+    top:328%;
+    left:35%;
+    background-color: red;
+    margin-top: 1%;
+}
+
+.container .box3 p,.container .box4 p{
+    margin-top: 0px;
+}
+
+
+.container .box:nth-child(2) h4,
+.container .box:nth-child(3) h4{
+    padding: 6%;
+}
+
+.container .box h4{
+    text-align: left;
+    padding: 2%;
+    color: #0C134F;
+    font-size: 1.2rem;
+}
+.container .box p{
+    padding: 2%;
+}
+
+.icon{
+    align-items: center;
+    position: relative;
+    left:45%;
+}
+.icon2{
+    position: absolute;
+    left:80%;
+}
+
+.container .box1 img{
+    width:40%;
+    margin-left: 25%;
+}
+
+.container .box2 img{
+    width:30%;
+    margin-left: 32%;
+    margin-top: -30px;
+}
+
+.container .box3 img{
+    width:30%;
+    margin-left: 32%;
+    margin-top: -30px;
+}
+.container .box4 img{
+    width:30%;
+    margin-left: 32%;
+    margin-top: -30px;
+}
+.container .box5 img{
+    width:30%;
+    margin-left: 32%;
+    margin-top: -30px;
+} 
+
+/* Default styles for larger screens */
+/* Media queries for tablets (portrait) */
+@media(max-width: 1077px) {
+    .page-3 {
+        top: 130%;
+        height: 2000px;
+    }
+    .p3info h1{
+        margin-top: 10%;
+    }
+
+    .container .box {
+        width: 48%;
+        margin: 2% auto;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        
+    }
+    .container .box1{
+        top:160%;
+        width:30%;
+        height: 460px;
+    }
+    .container .box2{
+        top:160%;
+        margin-left: 10%;
+        height: 460px;
+        width: 30%;
+    }
+    .container .box3{
+        top:230%;
+        height: 460px;
+        width: 30%;
+        margin-left:-60%;
+    }
+    .container .box4{
+        margin-top:-65%;
+        height: 460px;
+        width: 30%;
+        margin-left: 40%;
+    }
+    .container .box5{
+        top:280%;
+        height: 460px;
+        width: 30%;
+        margin-left:-30%;
+    }
+    .box2 p{
+        margin-top: 2%;
+    }
+}
+

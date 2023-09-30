@@ -1,0 +1,86 @@
+.page-4{
+   background-color: red;
+   position: absolute;
+   top:394%;
+   height:600px;
+   width: 100%;
+}
+.page-4 .boxx{
+    position: absolute;
+    top:10%;
+    left:1%;
+    width: 23%;
+    background-color: white;
+    height: 500px;
+    border-radius: 0 15% 0 15%;
+    box-shadow: rgba(234, 229, 229, 0.35) 0px 15px 15px;
+}
+.page-4 .boxx:nth-child(2){
+    position: absolute;
+    left:26%;
+}
+.page-4 .boxx:nth-child(3){
+    position: absolute;
+    left:51%;
+}
+.page-4 .boxx:nth-child(4){
+    position: absolute;
+    left:76%;
+}
+.page-4 h2{
+    margin-top: 1px;;
+    padding: 1%;
+    color: white;
+    font-weight: 700;
+}
+.page-4 a{
+    text-decoration: none;
+    color: red;
+    font-weight: 700;
+    position: absolute;
+    top:90%;
+    left:65%;
+}
+.page-4 .boxx1 img,.page-4 .boxx3 img,.page-4 .boxx4 img{
+     width: 100%;
+     height: 60%;
+}
+.page-4 .boxx2 img{
+     width:100%;
+     height: 60%;
+}
+.page-4 .boxx3 p{
+    padding: 0;
+    margin-left: 3%;
+}
+.page-4 .boxx4 p{
+    padding: 0;
+    margin-left: 3%;
+}
+
+.page-4 .boxx1 h4,.page-4 .boxx2 p{
+    margin: 0;
+}
+
+.page-4 .boxx1 p{
+    margin: 0;
+    padding-left: 6px;
+}
+
+.page-4 .boxx2 p{
+    margin-left: 2%;
+    margin-bottom: 10px;
+}
+.page-4 .boxx h4{
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.4rem;
+    color:#0C134F;
+    padding-left: 2%;
+    margin-top: 0;
+}
+.page-4 p{
+    text-align: left;
+    font-size: 0.9rem;
+    font-weight: 500;
+}

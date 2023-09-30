@@ -1,3 +1,4 @@
+import React from 'react'
 import firstPage from './components/firstPage.jsx';
 import secondPage from './components/secondPage.jsx';
 import thirdPage from './components/thirdPage.jsx'
@@ -7,26 +8,19 @@ import sixthpage from './components/sixthpage.jsx';
 import seventhPage from './components/seventhPage.jsx';
 import eighthPage from './components/eighthPage.jsx';
 import ninthPage from './components/ninthPage.jsx';
-import { Routes,Route } from 'react-router-dom';
-import Home from './Home.js'
-import Swift from './Swift.js'
 
-function App() {
+const Home = () => {
   return (
-    
-    
-    <Routes>
-     <Route path="/" element={<Home></Home>} />
-
-     <Route path="/swift" element={<Swift></Swift>} />
-     
-     </Routes> 
-    
-    
-
-  );
-}
-
-export default App;
-{/* 
- */}
+    <div>
+     <div>{firstPage()}</div>
+     <div>{secondPage()}</div>
+     <div>{thirdPage()}</div>
+     <div>{fourthPage()}</div>
+     <div>{fifthPage()}</div>
+     <div>{sixthpage()}</div>
+     <div>{seventhPage()}</div>
+     <div>{eighthPage()}</div>
+     <div>{ninthPage()}</div>
+    </div>
+)};  
+export default Home

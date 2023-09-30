@@ -1,0 +1,48 @@
+ .page-2{
+    background-image: url(../img/img2.jpeg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    position:absolute;
+    top:140%;
+}
+.blue-box{
+    background-color: #0C134F;
+    position: absolute;
+    top:180%;
+    left:5%;
+    padding: 2%;
+    border-radius: 10%;
+    border: 3px solid black;
+}
+
+.underline{
+    text-decoration: underline;
+    color: beige;
+}
+
+.blue-box h2,
+.blue-box p{
+    text-align: left;
+    color: #fff;
+}
+
+.blue-box a{
+    position: relative;
+    left:70%;
+} 
+@media(max-width: 1078px) {
+    .blue-box{
+        width:50vh;
+        height:50vh;
+        align-items: center;
+        top:55%;
+        left:2%;
+        border: 0px;
+    }
+    .page-2{
+         height:80vh;
+         top:50%;
+    }
+}

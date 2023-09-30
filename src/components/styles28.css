@@ -1,0 +1,43 @@
+.page-28{
+    background-color: white;
+    position: absolute;
+    top:470%;
+    width: 100%;
+}
+
+.page-28 h5{
+    text-align: center;
+    color: #0E2954;
+}
+.page-28 .row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 1%; */
+}
+
+.page-28 .col-1,
+.page-28 .col-2,
+.page-28 .col-3,
+.page-28 .col-4,
+.page-28 .col-5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.5%;
+    flex: 1; /* Distribute columns evenly */
+    max-width: calc(50% - 20px); /* Set maximum width for tablet and smaller screens */
+    box-sizing: border-box;
+}
+.page-28 .col-4 img,.page-28 .col-3 img,.page-28 .col-5 img{
+    max-width: 100%; /* Make images responsive */
+    height: auto; /* Maintain image aspect ratio */
+    padding: 2%;
+}
+.page-28 .col-1 img,.page-28 .col-2 img{
+    max-width: 100%; /* Make images responsive */
+    height: auto; /* Maintain image aspect ratio */
+}
