@@ -8,6 +8,9 @@ body{
 .hidden,.icon1,.icon2{
     visibility: hidden;
 }
+.hide{
+    visibility: visible;
+}
 .contact-info{
     display: flex;
     justify-content: space-between;
