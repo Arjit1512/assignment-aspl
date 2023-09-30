@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/assignment-aspl/static/css/main.26134b3e.css",
+    "main.js": "/assignment-aspl/static/js/main.f57b2198.js",
+    "static/media/img222.png": "/assignment-aspl/static/media/img222.ec9427e33031f5ffef75.png",
+    "static/media/truck.png": "/assignment-aspl/static/media/truck.d6493415583cd1a063cf.png",
+    "static/media/img1.jpg": "/assignment-aspl/static/media/img1.b4eed16b7a24d1d442e6.jpg",
+    "static/media/swift.jpeg": "/assignment-aspl/static/media/swift.fbbd0e2ea2b606e8c79a.jpeg",
+    "static/media/img4.jpg": "/assignment-aspl/static/media/img4.e9a991f4562c3c326eaf.jpg",
+    "static/media/per1.png": "/assignment-aspl/static/media/per1.200794b8931e116e5411.png",
+    "static/media/cart3.jpeg": "/assignment-aspl/static/media/cart3.23ff78f50d46287c7602.jpeg",
+    "static/media/cart2.jpg": "/assignment-aspl/static/media/cart2.4fc6798d1d4d5902d892.jpg",
+    "static/media/img3.jpg": "/assignment-aspl/static/media/img3.1310457413a18a990933.jpg",
+    "static/media/cart1.jpg": "/assignment-aspl/static/media/cart1.8d1db95fab564323726d.jpg",
+    "static/media/i2.png": "/assignment-aspl/static/media/i2.7a935481a0ad36f6d544.png",
+    "static/media/cyber.png": "/assignment-aspl/static/media/cyber.d0c88b17e6c95a7ab938.png",
+    "index.html": "/assignment-aspl/index.html",
+    "main.26134b3e.css.map": "/assignment-aspl/static/css/main.26134b3e.css.map",
+    "main.f57b2198.js.map": "/assignment-aspl/static/js/main.f57b2198.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.26134b3e.css",
+    "static/js/main.f57b2198.js"
+  ]
+}
