@@ -1,7 +1,5 @@
 import React from 'react'
 import "./styles2.css";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPhoneVolume ,faArrowRight ,faCircle} from '@fortawesome/free-solid-svg-icons';
 const secondPage = () => {
   return (
 <div>

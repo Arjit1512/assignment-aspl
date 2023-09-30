@@ -1,7 +1,7 @@
 import React from 'react'
 import "./styles.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPhone ,faArrowRight ,faCircle, faBars} from '@fortawesome/free-solid-svg-icons';
+import { faPhone ,faArrowRight ,faBars} from '@fortawesome/free-solid-svg-icons';
 import {Link} from 'react-router-dom';
 import call from '../img/call.png'
 const firstPage = () => {
